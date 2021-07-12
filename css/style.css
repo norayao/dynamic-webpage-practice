@@ -1,0 +1,30 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:before, *:after{
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+
+/* register and sign in form */
+#registerForm, #signInForm{
+    margin: 20% auto;
+    width: 400px;
+    height: 200px;
+    border: 2px solid grey;
+    text-align: center;
+}
+#registerForm div, #signInForm div {
+    padding: 15px;
+}
+#password{
+    margin-left: 15px;
+}
+#registerForm button, #signInForm button {
+    width: 50px;
+}
